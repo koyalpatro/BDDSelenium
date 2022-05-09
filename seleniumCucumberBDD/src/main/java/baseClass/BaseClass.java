@@ -26,6 +26,7 @@ private WebDriver driver;
  
  public void EnterText(WebElement element,String value) {	 
 	element.sendKeys(value);
+	System.out.println("123");
 	
  }
  
