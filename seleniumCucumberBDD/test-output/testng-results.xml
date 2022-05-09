@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-06T15:46:10Z" name="Suite" finished-at="2022-05-06T15:46:28Z" duration-ms="18632">
+    <groups>
+    </groups>
+    <test started-at="2022-05-06T15:46:10Z" name="Test" finished-at="2022-05-06T15:46:28Z" duration-ms="18632">
+      <class name="TestRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunner.TestRunner@19c65cdc]" started-at="2022-05-06T15:46:10Z" name="setUpClass" finished-at="2022-05-06T15:46:10Z" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRunner@19c65cdc]" started-at="2022-05-06T15:46:10Z" name="feature" data-provider="features" finished-at="2022-05-06T15:46:20Z" duration-ms="10164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["positive google scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["google Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRunner@19c65cdc]" started-at="2022-05-06T15:46:20Z" name="feature" data-provider="features" finished-at="2022-05-06T15:46:28Z" duration-ms="8041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["positive google scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["google Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@19c65cdc]" started-at="2022-05-06T15:46:28Z" name="tearDownClass" finished-at="2022-05-06T15:46:28Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
